@@ -1,12 +1,12 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let naslov = "Мониторинг система на програмском језику Раст"
+#let autor = "Душан Лечић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "System monitoring in Rust"
+#let autor_eng = "Dušan Lečić"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV 80/2021"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -16,8 +16,8 @@
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+//#let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
 
@@ -27,20 +27,21 @@
 // Такође унети ручно и број прилога.
 #let broj_priloga = 2
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Мониторинг система, Модуларан дизајн, Оперативни системи, Руст, Терминал, Flux архитектура, Ratatui"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Овај рад представља развој терминалног алата за мониторинг система написаног у програмском језику Раст. 
+     Циљ је израда брзог, ефикасног и поузданог решења које омогућава приказ искоришћености ресурса и надзор над активним процесима. 
+     Архитектура апликације заснива се на модуларном дизајну и Flux архитектонском обрасцу, док је кориснички интерфејс реализован 
+     у терминалу помоћу Ratatui библиотеке.
 ]
-
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "System monitor, Clean architecture, Operating systems, Rust, Terminal, Flux architecture, Ratatui"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     This thesis presents the development of a terminal-based system monitoring tool written in the Rust programming language. 
+     The goal is to create a fast, efficient, and reliable solution for visualizing system resource usage and monitoring active processes. 
+     The application architecture follows a modular design and the Flux architectural pattern, while the terminal user interface 
+     is implemented using the Ratatui library.
 ]
-
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
      #lorem(100)

@@ -19,7 +19,7 @@
 #v(3cm)
 
 #align(center, text(if naslov == "Шаблон и упутство за писање завршних радова"
-          { "Проф. др Игор Дејановић" } else { autor },
+          { "Душан Лечић" } else { autor },
           size: 20pt))
 
 #v(1cm)
