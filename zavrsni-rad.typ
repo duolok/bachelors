@@ -1,6 +1,3 @@
-// У овом фајлу је потребно да укључите поглавља. Видети TODO доле.
-// Такође, видите metadata.typ
-
 #import "metadata.typ": *
 #set page(paper: format_strane, margin: (y: 2.5cm, inside: 2cm, outside: 1.5cm))
 #include "naslovna.typ"
@@ -26,7 +23,7 @@
 
 #show figure.where(
   kind: table
-): set figure.caption(position: top)
+): set figure.caption(position: bottom)
 #show figure.where(kind: raw): set figure(supplement: [Листинг])
 #set ref(supplement: none)
 
@@ -69,6 +66,10 @@
 // TODO: Овде укључујете поглавља
 #include "poglavlja/1-uvod.typ"
 #include "poglavlja/2-stanje.typ"
+#include "poglavlja/3-tehnologije.typ"
+#include "poglavlja/4-arhitektura.typ"
+#include "poglavlja/5-implementacija.typ"
+#include "poglavlja/6-primer-koriscenja.typ"
 #include "poglavlja/7-zakljucak.typ"
 
 

@@ -20,8 +20,6 @@
 #let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
-
-<<<<<<< HEAD
 // FIXME: Аутоматизовати бројање цитата и прилога
 // За сада унети ручно број референци/цитата из поглавља Литература.
 #let broj_citata = 4
@@ -50,6 +48,7 @@
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
 #let datum_odbrane = "01.01.2025"
+
 #let komisija_predsednik = "Петар Петровић"
 #let komisija_predsednik_zvanje = "ванредни професор"
 #let komisija_clan = "Марко Марковић"
