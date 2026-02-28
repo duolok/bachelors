@@ -77,7 +77,7 @@ Bottom користи око 2,400 линија Раст кода, што га �
 #figure(
     table(
         columns: 4,
-        align: (left, left, center, center, center, left),
+        align: (left, left, center, center),
         inset: 8pt,
         table.header(
             [*Алат*], [*Језик*], [*Платформе*],[*Кључне особине*]
