@@ -17,7 +17,7 @@ $ oxyd
 
 #figure(image("../slike/home.png", width: auto),
   caption: [
-    Почетна страница.
+    Приказ странице за увид у основне метрике.
   ]
 )<fig:home>
 
