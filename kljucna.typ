@@ -111,7 +111,7 @@
       rect(align(left + horizon, disciplina), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
-      dy: 57.5%,
+      dy: 57.9%,
       dx: left_edge,
       rect(align(left + horizon, kljucne_reci), fill: clr, width: 59%, height: 12pt)
   )
@@ -243,9 +243,9 @@
       rect(align(left + horizon, disciplina_eng), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
-      dy: 56.5%,
+      dy: 56.9%,
       dx: left_edge_eng,
-      rect(align(left, kljucne_reci_eng), fill: clr, width: 59%, height: 16pt)
+      rect(align(left + horizon, kljucne_reci_eng), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
       dy: 62.35%,
