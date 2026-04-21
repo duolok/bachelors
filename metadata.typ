@@ -1,9 +1,9 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Мониторинг система на програмском језику Раст"
+#let naslov = "Дизајн и имплементација мониторинг система на програмском језику Раст"
 #let autor = "Душан Лечић"
 
 // На енглеском
-#let naslov_eng = "System monitoring in Rust"
+#let naslov_eng = "Design and Implementation of a Monitoring System in the Rust Programming Language"
 #let autor_eng = "Dušan Lečić"
 
 #let indeks = "SV 80/2021"
@@ -20,11 +20,6 @@
 #let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
-// FIXME: Аутоматизовати бројање цитата и прилога
-// За сада унети ручно број референци/цитата из поглавља Литература.
-#let broj_citata = 4
-// Такође унети ручно и број прилога.
-#let broj_priloga = 2
 
 #let kljucne_reci = "Мониторинг система, Модуларан дизајн, Оперативни системи, Руст, Терминал, Flux архитектура, Ratatui"
 #let apstrakt = [
@@ -43,20 +38,27 @@
 ]
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+
+    Истражити област алата за мониторинг система. Дизајнирати и имплементирати
+    брзо, ефикасно и поуздано решењe које омогућава приказ искоришћености
+    ресурса и надзор над активним процесима. У имплементацији користити
+    програмски језик Раст.
+
+    При изради користити препоручену праксу из области софтверског инжењерства.
+    Детаљно документовати решење.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
+#let datum_odbrane = "28.04.2026"
 
-#let komisija_predsednik = "Петар Петровић"
-#let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
-#let komisija_clan_zvanje = "доцент"
+#let komisija_predsednik = "Мирослав Зарић"
+#let komisija_predsednik_zvanje = "редовни професор"
+#let komisija_clan = "Гордана Милосављевић"
+#let komisija_clan_zvanje = "редовни професор"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
+#let komisija_predsednik_eng = "Miroslav Zarić"
+#let komisija_clan_eng = "Gordana Milosavljević"
 #let mentor_eng = "Igor Dejanović"
 
 
